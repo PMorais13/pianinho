@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.piano {
+    display: flex;
+}
+
+input {
+    display: none;
+}
+
+.teclas {
+    width: 10%;
+    height: 24vh;
+    background-color: rgb(109, 109, 109);
+    margin: 0 1vh;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
