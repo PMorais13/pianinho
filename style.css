@@ -14,7 +14,7 @@ input {
 .teclas {
     width: 10%;
     height: 24vh;
-    background-color: rgb(109, 109, 109);
+    background-color: rgb(223, 223, 223);
     margin: 0 1vh;
     align-items: flex-end;
     display: flex;

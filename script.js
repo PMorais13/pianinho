@@ -1,3 +1,5 @@
+let cor = "rgb(255, 169, 169)"
+
 let audios = {
     notaC: 'notas/noteC.wav',
     notaCSus: 'notas/noteCSus.wav',
@@ -24,111 +26,111 @@ function playAudio(audioName) {
 }
 
 function clickDo() {
-    document.getElementById("do").style.backgroundColor = "red"
+    document.getElementById("do").style.backgroundColor = cor
     playAudio('notaC')
 }
 
 function desclickDo(){
-    document.getElementById("do").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("do").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickDoSus() {
-    document.getElementById("doSus").style.backgroundColor = "red"
+    document.getElementById("doSus").style.backgroundColor = cor
     playAudio('notaCSus')
 }
 
 function desclickDoSus(){
-    document.getElementById("doSus").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("doSus").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickRe() {
-    document.getElementById("re").style.backgroundColor = "red"
+    document.getElementById("re").style.backgroundColor = cor
     playAudio('notaD')
 }
 
 function desclickRe(){
-    document.getElementById("re").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("re").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickReSus() {
-    document.getElementById("reSus").style.backgroundColor = "red"
+    document.getElementById("reSus").style.backgroundColor = cor
     playAudio('notaDSus')
 }
 
 function desclickReSus(){
-    document.getElementById("reSus").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("reSus").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickMi() {
-    document.getElementById("mi").style.backgroundColor = "red"
+    document.getElementById("mi").style.backgroundColor = cor
     playAudio('notaE')
 }
 
 function desclickMi(){
-    document.getElementById("mi").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("mi").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickFa() {
-    document.getElementById("fa").style.backgroundColor = "red"
+    document.getElementById("fa").style.backgroundColor = cor
     playAudio('notaF')
 }
 
 function desclickFa(){
-    document.getElementById("fa").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("fa").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickFaSus() {
-    document.getElementById("faSus").style.backgroundColor = "red"
+    document.getElementById("faSus").style.backgroundColor = cor
     playAudio('notaFSus')
 }
 
 function desclickFaSus(){
-    document.getElementById("faSus").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("faSus").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickSol() {
-    document.getElementById("sol").style.backgroundColor = "red"
+    document.getElementById("sol").style.backgroundColor = cor
     playAudio('notaG')
 }
 
 function desclickSol(){
-    document.getElementById("sol").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("sol").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickSolSus() {
-    document.getElementById("solSus").style.backgroundColor = "red"
+    document.getElementById("solSus").style.backgroundColor = cor
     playAudio('notaGSus')
 }
 
 function desclickSolSus(){
-    document.getElementById("solSus").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("solSus").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickLa() {
-    document.getElementById("la").style.backgroundColor = "red"
+    document.getElementById("la").style.backgroundColor = cor
     playAudio('notaA')
 }
 
 function desclickLa(){
-    document.getElementById("la").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("la").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickLaSus() {
-    document.getElementById("laSus").style.backgroundColor = "red"
+    document.getElementById("laSus").style.backgroundColor = cor
     playAudio('notaASus')
 }
 
 function desclickLaSus(){
-    document.getElementById("laSus").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("laSus").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function clickSi() {
-    document.getElementById("si").style.backgroundColor = "red"
+    document.getElementById("si").style.backgroundColor = cor
     playAudio('notaB')
 }
 
 function desclickSi(){
-    document.getElementById("si").style.backgroundColor = "rgb(109,109, 109)"
+    document.getElementById("si").style.backgroundColor = " rgb(223, 223, 223)"
 }
 
 function handleKeyDown(event) {
