@@ -28,20 +28,20 @@ let audios = {
     notaCSegOitava: 'notas/noteCSegOitava.wav',
 }
 
-// function aumentar_volume(){
-//     audios.volume(this) += 0.1;
-// }
-
-// function diminuir_volume(){
-//     audios.volume(this) -= 0.1;
-// }
-
 function playAudio(audioName) {
 
     if (audios[audioName]) {
         const audio = new Audio(audios[audioName]);
         audio.play();
     }
+}
+
+function aumentar_volume(){
+    if( audios.volume < 1)  audio().volume += 1;
+}
+
+function diminuir_volume(){
+    if( audios.volume > 0)  audio().volume -= 1;
 }
 
 function clickDo() {
